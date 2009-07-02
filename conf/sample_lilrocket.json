@@ -1,0 +1,6 @@
+{
+    'port': 9000,
+    'listeners': 5,
+    'spelling_support': true,
+    'faceting_support': true
+}

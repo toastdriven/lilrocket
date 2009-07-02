@@ -1,0 +1,41 @@
+=========
+lilrocket
+=========
+
+What is LilRocket?
+==================
+
+LilRocket is a standalone search webservice for Whoosh. It's roughly analagous
+to the relationship between Solr & Lucene. LilRocket makes it easier for
+multiple machines to share the same index and multiple processes to run at the
+same time without fear of damaging the index or locked indexes.
+
+
+How do I use LilRocket?
+=======================
+
+LilRocket runs as a standard process (not a daemon). You launch it by running::
+
+    lilrocket.py
+
+Optionally, if you want to override the default configuration, you should
+provide a JSON configuration file like so::
+
+    lilrocket.py [/path/to/lilrocket.json]
+
+
+Additional Documentation
+========================
+
+Contents:
+
+.. toctree::
+   :maxdepth: 2
+
+Indices and tables
+==================
+
+* :ref:`genindex`
+* :ref:`modindex`
+* :ref:`search`
+
