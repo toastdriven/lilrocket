@@ -1,0 +1,8 @@
+{
+    'port': 9000,
+    'listeners': 5,
+    'data_path': '/var/lilrocket/data',
+    'index_name': 'default',
+    'spelling_support': true,
+    'faceting_support': true
+}
